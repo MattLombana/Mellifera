@@ -1,25 +1,13 @@
 
 # Mellifera
 
-Mellifera: A Honeypot designed with simplicity in mind, written in python 3.
+Mellifera: A Honeypot designed with simplicity in mind, written in C.
 The name draws inspiration from the scientific name of the Western American
 Honey Bee. (Apis Mellifera). Since this is one of the few species of bees that
 make honey, it seemed like a fitting name.
 
 ## Installation
 
-```shell
-virtualenv -p python3 <virtualenv_name>
-cd <virtualenv_name>
-. bin/activate
-git clone https://github.com/MattLombana/Mellifera
-cd Mellifera
-pip3 install -Ur requirements.txt
-```
-
-Make sure to replace `<virtualenv_name>` with a name for your virtual
-environment. I like to use reponame-virt. In this case reponame would
-be replaced with Mellifera ie, I use Mellifera-virt
 
 ## Configuration
 
